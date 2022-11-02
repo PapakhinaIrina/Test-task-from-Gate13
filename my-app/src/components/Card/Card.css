@@ -1,0 +1,36 @@
+.wrapper {
+  border: 2px solid black;
+  width: 300px;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  flex-direction: column;
+}
+
+.title{
+  font-family: 'system-ui';
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 7px;
+}
+
+.body {
+  margin-bottom: 7px;
+}
+
+.checkbox{
+  align-items: start;
+}
+
+.checked_wrapper{
+  border: 2px solid rgb(154, 17, 17);
+  width: 300px;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+  flex-direction: column;
+  background: grey;
+  
+}

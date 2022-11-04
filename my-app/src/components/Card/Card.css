@@ -1,5 +1,7 @@
 .wrapper {
   border: 2px solid black;
+  border-radius: 8px;
+  color: black;
   width: 300px;
   display: flex;
   margin: 5px;
@@ -25,12 +27,14 @@
 }
 
 .checked_wrapper{
-  border: 2px solid rgb(154, 17, 17);
+  border: 2px solid rgb(62, 35, 18);
+  border-radius: 8px;
   width: 300px;
+  color: white;
   display: flex;
   margin: 5px;
   padding: 5px;
   flex-direction: column;
-  background: grey;
+  background: rgb(120, 100, 73);
   
 }

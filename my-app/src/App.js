@@ -13,12 +13,14 @@ function App() {
       }, [])
 
   return (
+    <div>
     <div className='card'>
       {data?.map(el => {
         return(
           <Card key={el.id} title={el.title} body={el.body}/>
         )
       })}
+      </div>
     </div>
   );
 }

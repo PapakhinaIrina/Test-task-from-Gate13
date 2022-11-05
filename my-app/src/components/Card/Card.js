@@ -3,11 +3,9 @@ import './Card.css';
 
 const Card = (props) => {
   const {title, body} = props;
-
   const [checked, setChecked] = useState(false);
 
   return(
-    
   <div className={checked ? 'checked_wrapper' : 'wrapper' }>
     <div className="title">
       {title}

@@ -2,11 +2,11 @@
   border: 2px solid black;
   border-radius: 8px;
   color: black;
-  width: 300px;
   display: flex;
+  flex-direction: column;
   margin: 5px;
   padding: 5px;
-  flex-direction: column;
+  width: 300px;
 }
 
 .title{
@@ -27,14 +27,13 @@
 }
 
 .checked_wrapper{
+  background: rgb(120, 100, 73);
   border: 2px solid rgb(62, 35, 18);
   border-radius: 8px;
-  width: 300px;
   color: white;
+  flex-direction: column;
   display: flex;
   margin: 5px;
   padding: 5px;
-  flex-direction: column;
-  background: rgb(120, 100, 73);
-  
+  width: 300px;
 }
